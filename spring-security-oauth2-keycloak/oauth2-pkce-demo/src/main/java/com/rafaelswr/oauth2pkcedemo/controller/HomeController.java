@@ -10,7 +10,7 @@ public class HomeController {
 
     @GetMapping("/home")
     @ResponseStatus(HttpStatus.OK)
-    public String sayHello(){
+    public String hello(){
         return "Hello";
     }
 
